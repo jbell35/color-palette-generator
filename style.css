@@ -22,10 +22,29 @@ body {
     margin-bottom: 10px;
 }
 
-.pal {
+.colCard {
     background-color: red;
     margin-left: 10px;
     width: 10.5em;
     height: 15em;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 500;
 
+}
+
+.btn {
+    width: 60em;
+    height: 2em;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 4px;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #dddcdc;
+    
 }
