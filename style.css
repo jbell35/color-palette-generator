@@ -23,14 +23,17 @@ body {
 }
 
 .colCard {
-    background-color: red;
+    /*background-color: red;*/
     margin-left: 10px;
     width: 10.5em;
     height: 15em;
     text-align: center;
     padding-top: 20px;
     font-weight: 500;
+}
 
+.pal1{
+    display: flex;
 }
 
 .btn {
@@ -40,7 +43,6 @@ body {
     font-weight: bold;
     font-size: 12px;
     border-radius: 4px;
-
 }
 
 .btn:hover {
