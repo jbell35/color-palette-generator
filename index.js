@@ -1,5 +1,4 @@
 
-
 function generateColor(){
     return '#' + Math.floor(Math.random() * 1677215).toString(16).padStart(6, '0');
 }
@@ -23,7 +22,6 @@ function createPalColors(){
 
     }
 }
-
 
 const genBtn = document.querySelector(".btn");
 genBtn.addEventListener('click', createPalColors);
